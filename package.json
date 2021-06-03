@@ -1,0 +1,18 @@
+{
+  "name": "tokbox",
+  "version": "1.0.0",
+  "description": "tokBox live streaming using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "vishal sharma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "opentok": "^2.11.0"
+  }
+}
