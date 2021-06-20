@@ -10,7 +10,7 @@
 - Create live stream HLS url
 - Broadcast session
 - Destroy broadcast
-- covered (HLS and .....)
+- Covered (HLS and .....)
 
 ---
 
@@ -20,7 +20,7 @@ You can use the OpenTok Node.js library to generate OpenTok sessions. Each sessi
 
 ## Docker basic command
 
-# create image file
+# Create image file
 
 - sudo docker build -t fileName .
 
