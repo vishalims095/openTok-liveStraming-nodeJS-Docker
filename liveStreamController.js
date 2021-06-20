@@ -4,6 +4,10 @@ const opentok = new OpenTok(`${process.env.apiKey}`, `${process.env.apiSecret}`)
 
 // At first we create session
 
+exports.checkApi = (req, res) =>{
+    res.status(200).send({message : "Working fine"})
+}
+
 exports.createSession = (req, res) => {
     try {
         let token = opentok.createSession({mediaMode:"routed"},async function (err, session) {

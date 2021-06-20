@@ -22,8 +22,18 @@ You can use the OpenTok Node.js library to generate OpenTok sessions. Each sessi
 
 # Create image file
 
-- sudo docker build -t fileName .
+- sudo docker build -t imageName .
 
 # Run image file
 
-- docker run -it -p newPort:oldPort (example : 9000 : 3000) fileName
+- docker run -it -p newPort:oldPort (example : 9000 : 3000) imageName
+
+# Run docker container in backend
+
+- docker run -d -p 9000:3000 imageName
+
+# List of running container
+
+- docker ps
+
+# 
