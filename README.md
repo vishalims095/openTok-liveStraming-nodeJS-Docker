@@ -36,4 +36,7 @@ You can use the OpenTok Node.js library to generate OpenTok sessions. Each sessi
 
 - docker ps
 
-# 
+# Optimize docker build command like nodemon or volume
+ - In nodejs we use "nodemon index.js" (continuous watch our file)
+ - If nodemon not installed, install it and create again same imageFile
+ - docker run -it -p 9001:3000 -v $(pwd):/index node-docker // assign Different PORT

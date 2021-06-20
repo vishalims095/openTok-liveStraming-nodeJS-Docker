@@ -5,7 +5,7 @@ const opentok = new OpenTok(`${process.env.apiKey}`, `${process.env.apiSecret}`)
 // At first we create session
 
 exports.checkApi = (req, res) =>{
-    res.status(200).send({message : "Working fine"})
+    res.status(200).send({message : "Hello Working fine"})
 }
 
 exports.createSession = (req, res) => {
