@@ -40,3 +40,12 @@ You can use the OpenTok Node.js library to generate OpenTok sessions. Each sessi
  - In nodejs we use "nodemon index.js" (continuous watch our file)
  - If nodemon not installed, install it and create again same imageFile
  - docker run -it -p 9001:3000 -v $(pwd):/index node-docker // assign Different PORT
+
+# Push docker image on dockerhub
+ - check list of images(docker images)
+ - sudo docker tag node-docker:latest vishalims095/node-docker-test:v1
+    node-docker // image name
+    latest // tag name
+    vishalims095/node-docker-test:v1 // repo name and add tag it'll create a file
+ - sudo docker push vishalims095/node-docker-test:v1
+    v1 // pass tag name previously created using cmd
