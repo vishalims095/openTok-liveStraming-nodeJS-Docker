@@ -10,7 +10,7 @@
 - Create live stream HLS url
 - Broadcast session
 - Destroy broadcast
-- Covered (HLS and .....)
+- Covered (HLS and WebRTC)
 
 ---
 
